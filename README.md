@@ -13,3 +13,6 @@ You can find those 1.004 queries in the file quora_query.txt.
 
 ## License
 This project is licensed under the MIT License with an Acknowledgment Clause. See LICENSE for more information.
+
+Scraped by Yannis Bendi-Ouis.
+Website: https://www.naowak.fr/
