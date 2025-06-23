@@ -1,24 +1,22 @@
-MIT License
+# French-Quora-Dataset
 
-Copyright (c) 2025 Yannis Bendi-Ouis
+Question & Answer in French extract from Quora
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Download
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Git LFS restrict the downloads, so the dataset as been moved to a Google Drive:
+https://drive.google.com/file/d/1br-v6VqR2jAeP0PokTU2zZRySPE-fSgr/view?usp=sharing
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## Informations
 
-Acknowledgement:
-This software includes contributions from Yannis Bendi-Ouis. If used in an academic, commercial, or public-facing context, attribution is really appreciated.
+This dataset contains 50.758 Questions & Answers. It represent 110MB of pure text data.  
+This dataset was created for the Overton project made by Naowak. You can find the script used to scrap the data in this project.  
+To create the dataset, the script made 1.004 serach queries to Quora, and retrieve the first 60 Q&A for each query.  
+You can find those 1.004 queries in the file quora_query.txt.
+
+
+## License
+This project is licensed under the MIT License with an Acknowledgment Clause. See LICENSE for more information.
+
+Scraped by Yannis Bendi-Ouis.
+Website: https://www.naowak.fr/
